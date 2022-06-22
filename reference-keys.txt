@@ -1,4 +1,8 @@
 data-at-uclh
+caboodle-and-clarity
+omop
+emap
+other
 initial-instructions
 online-platforms-logins
 in-case-you-also-want-to-install-r-on-a-personal-computer

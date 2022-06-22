@@ -6,14 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Chapter 3 Course materials | UCLH Data Science Training Resources</title>
 <meta name="author" content="Andy South">
-<meta name="description" content="Short intro, then link to the slides in ppt format [that is what they were in before, knitted from Rmarkdown]. TODO add a few sentences outline of what each session includes. Day 1 1: an R taster...">
+<meta name="description" content="These are the materials for a two day course introducing R and RStudio for UCLH clinicians. There are a mixture of slides that will be presented and practical sessions that will be run through. In...">
 <meta name="generator" content="bookdown 0.26 with bs4_book()">
 <meta property="og:title" content="Chapter 3 Course materials | UCLH Data Science Training Resources">
 <meta property="og:type" content="book">
-<meta property="og:description" content="Short intro, then link to the slides in ppt format [that is what they were in before, knitted from Rmarkdown]. TODO add a few sentences outline of what each session includes. Day 1 1: an R taster...">
+<meta property="og:description" content="These are the materials for a two day course introducing R and RStudio for UCLH clinicians. There are a mixture of slides that will be presented and practical sessions that will be run through. In...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Chapter 3 Course materials | UCLH Data Science Training Resources">
-<meta name="twitter:description" content="Short intro, then link to the slides in ppt format [that is what they were in before, knitted from Rmarkdown]. TODO add a few sentences outline of what each session includes. Day 1 1: an R taster...">
+<meta name="twitter:description" content="These are the materials for a two day course introducing R and RStudio for UCLH clinicians. There are a mixture of slides that will be presented and practical sessions that will be run through. In...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -70,21 +70,92 @@
 <h1>
 <span class="header-section-number">3</span> Course materials<a class="anchor" aria-label="anchor" href="#course-materials"><i class="fas fa-link"></i></a>
 </h1>
-<p>Short intro, then link to the slides in ppt format [that is what they were in before, knitted from Rmarkdown].</p>
-<p>TODO add a few sentences outline of what each session includes.</p>
+<p>These are the materials for a two day course introducing R and RStudio for UCLH clinicians.</p>
+<p>There are a mixture of slides that will be presented and practical sessions that will be run through.</p>
+<p>In the course we aim to get learners using R and making their first plot at the very start. We will then return to explain more of the concepts later.</p>
+<p>The slides are provided in powerpoint format so that they can be viewed locally (and partly because this was adapted from an earlier course). The slides are actually generated using R from plain text files containing R code.</p>
 <div id="day-1" class="section level4 unnumbered">
 <h4>Day 1<a class="anchor" aria-label="anchor" href="#day-1"><i class="fas fa-link"></i></a>
 </h4>
+<p><a href="">Welcome</a></p>
+<ul>
+<li>introductions</li>
+<li>brief course objectives</li>
+<li>link to pre-course instructions</li>
+<li>check access to UCLH Data Science Desktop</li>
+</ul>
 <p><a href="sessions/1-R-taster.pptx">1: an R taster</a></p>
+<ul>
+<li>introducing RStudio &amp; R and difference between them</li>
+<li>download this project into RStudio</li>
+<li>some necessary setup on UCLH systems</li>
+</ul>
+<p><a href="sessions/1-R-taster-script.R">1.1: R taster script</a></p>
+<ul>
+<li>read in a tiny patient dataset from a csv file</li>
+<li>look at the data in R</li>
+<li>calculate new variables</li>
+<li>make first plots</li>
+</ul>
 <p><a href="sessions/2-R-intro.pptx">2: intro to R</a></p>
+<ul>
+<li>R, what &amp; why</li>
+<li>R &amp; data in the NHS</li>
+<li>RStudio recap</li>
+<li>R Objects, Functions &amp; Packages</li>
+<li>Vectors</li>
+<li>Data Frames</li>
+<li>Functions</li>
+<li>Packages</li>
+<li>Tidyverse v.brief intro</li>
+</ul>
+<p>[todo mention tibble with data frames]</p>
 <p><a href="sessions/3-data-good-practice.pptx">3: data good practice</a></p>
+<ul>
+<li>Tidy data</li>
+<li>Data types</li>
+<li>Data good practice</li>
+<li>Example of poorly formatted spreadsheet
+[no need to do exercise]
+[todo probably replace exercise with something simpler]</li>
+</ul>
 <p><a href="sessions/4-read-data.pptx">4: getting data into R</a></p>
+<ul>
+<li>reading a csv into R (CCHIC data)</li>
+<li>file paths [todo replace setwd() with RStudio project terminology]</li>
+<li>viewing data in R</li>
+</ul>
+<p>[todo copy cchic data to the book]</p>
 </div>
 <div id="day-2" class="section level4 unnumbered">
 <h4>Day 2<a class="anchor" aria-label="anchor" href="#day-2"><i class="fas fa-link"></i></a>
 </h4>
 <p><a href="sessions/5-visualise-data.pptx">5: data visualisation with ggplot2</a></p>
+<ul>
+<li>why visualise ?</li>
+<li>intro to ggplot2</li>
+<li>ggplot2 resources</li>
+<li>ggplot command - aes &amp; geom</li>
+<li>some visualisation tips</li>
+</ul>
+<p>[todo add briefly to vis tips]</p>
+<p><a href="sessions/5-visualise-script-ggplot.R">5.1: ggplot cchic script</a></p>
+<ul>
+<li>read in cchic csv</li>
+<li>barplots &amp; histograms</li>
+<li>scatterplots</li>
+<li>colour</li>
+<li>facets</li>
+</ul>
 <p><a href="sessions/6-manipulate-data.pptx">6: data manipulation with dplyr</a></p>
+<ul>
+<li>dplyr verbs</li>
+<li>pipe</li>
+<li>logical operators</li>
+<li>tidying cchic data</li>
+<li>exercises</li>
+</ul>
+<p>[todo add native pipe]</p>
 
 </div>
 </div>
@@ -110,7 +181,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>UCLH Data Science Training Resources</strong>" was written by Andy South. It was last built on 2022-06-13.</p>
+    <p>"<strong>UCLH Data Science Training Resources</strong>" was written by Andy South. It was last built on 2022-06-22.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
